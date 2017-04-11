@@ -1,3 +1,4 @@
+import fresh_tomatoes
 import media
 
 toy_story = media.Movie("Toy Story",
@@ -12,5 +13,17 @@ avatar = media.Movie("Avatar",
                      "https://upload.wikimedia.org/wikipedia/mk/c/c3/Avatar1.jpg",
                      "https://youtube.com")
 
-print (avatar.storyline)
+#print (avatar.storyline)
+#avatar.show_trailer()
 
+thor_ragnorok = media.Movie("Thor: Ragnorok",
+                            "This November, Thor: Ragnarok.",
+                            "https://upload.wikimedia.org/wikipedia/en/c/cf/Thor-_Ragnarok_logo.jpg",
+                            "https://www.youtube.com/watch?v=v7MGUNV8MxU")
+
+#thor_ragnorok.show_trailer()
+
+#save movie objects to array
+movies = [toy_story, avatar, thor_ragnorok]
+
+fresh_tomatoes.open_movies_page(movies)
