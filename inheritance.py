@@ -11,8 +11,8 @@ class Child(Parent):
         self.number_of_toys = number_of_toys
 
 
-billy_cyrus = Parent("Cyrus", "blue")
-print (billy_cyrus.last_name)
+#billy_cyrus = Parent("Cyrus", "blue")
+#print (billy_cyrus.last_name)
 
 miley_cyrus = Child("Cyrus", "blue", 6)
 print (miley_cyrus.last_name)
