@@ -23,9 +23,6 @@ months = ['January',
           'November',
           'December']
 
-
-def valid_month(month):
-
 # print valid_month("january")
 # => "January"
 # print valid_month("January")
@@ -34,4 +31,17 @@ def valid_month(month):
 # => None
 # print valid_month("")
 # => None
+
+# Make a mapping of the first 3 letters to lower case for Months array
+# month_abbvs = dict((m[:3].lower(),m) for m in months)
+
+def valid_month(month):
+    if month:
+        cap_month = month.capitalize()
+        if cap_month in months:
+            return cap_month
+
+print valid_month('april')
+
+
 
