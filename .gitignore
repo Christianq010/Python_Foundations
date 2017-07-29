@@ -1,2 +1,4 @@
 .idea
 /prank
+/movies/__pycache__
+*pyc
