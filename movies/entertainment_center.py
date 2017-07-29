@@ -18,7 +18,7 @@ avatar = media.Movie("Avatar",
 
 thor_ragnorok = media.Movie("Thor: Ragnorok",
                             "This November, Thor: Ragnarok.",
-                            "https://upload.wikimedia.org/wikipedia/en/c/cf/Thor-_Ragnarok_logo.jpg",
+                            "https://www.flickeringmyth.com/wp-content/uploads/2017/03/Thor-Ragnarok.jpg",
                             "https://www.youtube.com/watch?v=v7MGUNV8MxU")
 
 #thor_ragnorok.show_trailer()
