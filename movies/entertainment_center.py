@@ -23,10 +23,13 @@ thor_ragnorok = media.Movie("Thor: Ragnorok",
 
 #thor_ragnorok.show_trailer()
 
-#save movie objects to array
-#movies = [toy_story, avatar, thor_ragnorok]
 
-#fresh_tomatoes.open_movies_page(movies)
+
+# Save movie objects to array
+movies = [toy_story, avatar, thor_ragnorok]
+
+# Launch website from python
+fresh_tomatoes.open_movies_page(movies)
 
 #print the predefined variable doc we stored in the class
 print (media.Movie.__doc__)
