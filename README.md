@@ -4,3 +4,4 @@
 * The course was an introduction into Object-Oriented Programming on python.
 * Some of the projects built in this course include - 
 *Project Take a Break*, *Project Profanity Editor* and *Project Movie Website*.
+* Project *Prant* and *movies* have its own directory. `cd` into those folders.
